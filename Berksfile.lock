@@ -1,0 +1,28 @@
+DEPENDENCIES
+  mongo
+    git: https://github.com/pratheep96/MongodbChefCookbook.git
+    revision: f94ad8cd1b4f6cfe7757442be415e8f11a409537
+  node
+    git: https://github.com/pratheep96/ChefNodeJS.git
+    revision: 41fa1de75862223d3d6acbd4d65a506ce58e8d43
+
+GRAPH
+  apt (7.2.0)
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  mongo (0.1.0)
+  node (0.1.0)
+    apt (>= 0.0.0)
+    nodejs (~> 6.0.0)
+  nodejs (6.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 5.0)
+  seven_zip (3.1.1)
+    windows (>= 0.0.0)
+  windows (6.0.0)
